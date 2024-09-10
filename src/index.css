@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  background-color: #000; /* bg-black */
+}
+
+ul {
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+li {
+  margin-right: 1rem; /* mr-4 */
+  gap: 1rem; /* gap-4 */
+}
+
+a {
+  color: #fff; /* text-white */
+  font-weight: bold; /* font-bold */
+  font-size: 1.25rem; /* text-lg */
+}
